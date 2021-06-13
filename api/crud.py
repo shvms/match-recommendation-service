@@ -1,8 +1,6 @@
 from sqlalchemy.orm import Session
 from sqlalchemy import func, extract
 import numpy as np
-from typing import List
-from datetime import datetime
 
 from api import models, schemas
 from core.FeatureExtractor import FeatureExtractor
